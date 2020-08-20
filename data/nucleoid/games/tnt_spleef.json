@@ -1,6 +1,6 @@
 {
   "type": "spleef:spleef",
-  "decay": 60,
+  "decay": 10,
   "map": {
     "shape": {
       "type": "spleef:circle",
@@ -11,14 +11,7 @@
     "floor_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:oak_trapdoor",
-        "Properties": {
-          "facing": "north",
-          "half": "top",
-          "open": "false",
-          "powered": "false",
-          "waterlogged": "false"
-        }
+        "Name": "minecraft:tnt"
       }
     }
   },
@@ -26,5 +19,5 @@
     "min": 1,
     "max": 100
   },
-  "tool": {"id": "minecraft:netherite_axe", "Count": 1}
+  "tool": {"id": "minecraft:air", "Count": 1}
 }
