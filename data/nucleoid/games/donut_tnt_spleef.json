@@ -2,7 +2,7 @@
   "type": "spleef:spleef",
   "map": {
     "shape": {
-      "type": "spleef:circle",
+      "type": "spleef:donut",
       "radius": 16
     },
     "levels": 8,
